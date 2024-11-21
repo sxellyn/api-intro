@@ -1,0 +1,71 @@
+body {
+  font-family: "Bungee", serif;
+  background-image: url('imagens/background.jpg');
+  font-size: 14pt;
+  color:rgb(54, 137, 192);
+  text-shadow: rgb(255, 255, 255) 2px 5px;
+}
+
+form{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  width: 100%;
+  }
+
+button{
+  background-color: rgb(54, 137, 192);
+  border-color: rgb(54, 137, 192);
+  height:30px;
+  font-family: "Bungee", serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+button:hover{
+  border-color: aliceblue;
+  border-radius: 10px;
+}
+
+input{
+  height: 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border-color: rgb(54, 137, 192);
+  font-family: "Bungee", serif;
+  color: rgb(126, 201, 250);
+}
+
+input:focus{
+  border-color: aliceblue;
+  outline: none;
+}
+
+#resultado{
+  border-color: rgb(54, 137, 192);
+  border-radius: 10px;
+  border: 2px;
+}
+
+textarea{
+  background-color: aliceblue;
+  border-radius: 10px;
+  border-color: rgb(54, 137, 192);
+  font-family: "Bungee", serif;
+  color: rgb(54, 137, 192);
+  border: 2.5px solid;
+}
+
+textarea:focus{
+  border-color: aliceblue;
+  outline: none;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ATUALIZAR CAMPANHAS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../STYLES/paginas-style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+      </style>
+  </head>
+  <body>
+    <div>
+    <h1>ATUALIZE AS CAMPANHAS SOLIDARIAS AQUI!</h1>
+    <form method="post" action="/CampanhaSolidaria/CampanhaServlet?action=atualizar">
+    <label>Código da campanha a ser atualizada</label>
+    <input type="number" id="codigo" name="codigo"> 
+    <label>Data de Inicio</label>
+    <input type="date" id="data-inicio" name="data-inicio"> 
+    <label>Data de Fim</label>
+    <input type="date" id="data-fim" name="data-fim">
+    <label>Objetivo</label>
+    <textarea id="objetivo" name="objetivo"> </textarea>
+    <label>Descrição</label>
+    <textarea id="descricao" name="descricao"> </textarea>
+    <button type="submit">Atualizar</button>
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+instale no projeto o arquivo jstl-1.2.jar para poder visualizar o conteudo das tabelas na pagina jsp de consultas.

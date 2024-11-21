@@ -1,0 +1,43 @@
+body {
+  font-family: "Bungee", serif;
+  background-image: url('imagens/background.jpg');
+  font-size: 14pt;
+  color:rgb(54, 137, 192);
+  text-shadow: rgb(255, 255, 255) 2px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  background-color: rgb(54, 137, 192);
+  border-color: #3689c0;
+  font-family: "Bungee", serif;
+  border-radius: 10px;
+  height: 30px;
+}
+
+button:hover{
+  border-color: aliceblue;
+  border-radius: 10px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  height: 55vh;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  width: 100%;    
+}
+
+h1{
+  flex:1 100%;
+  text-align: center;
+}
+
+table{
+    background-color: white;
+}

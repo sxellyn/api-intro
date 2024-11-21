@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CAMPANHAS SOLDIARIAS AQUI</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="STYLES/index-style.css"> 
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+    </style>
+    <body>
+        <h1>ACESSE AS PÁGINAS!</h1>
+
+        <div id=categorias-container>
+            <div id="categoria">
+                <h2>ONGS</h2>
+                <button onclick="window.location.href = 'ONGS/cadastro.html'">Cadastrar</button>
+                <button onclick="window.location.href = 'ONGS/atualizar.html'">Atualizar</button>
+                <form  method="get" action="/CampanhaSolidaria/OngServlet?action=consultar" >
+                    <button onclick="window.location.href = 'ONGS/consultar.jsp'">Consultar</button>
+                </form>
+                <button onclick="window.location.href = 'ONGS/deletar.html'">Deletar</button>
+            </div>
+            <div id="categoria">
+                <h2>EMERGENCIAS</h2>
+                <button onclick="window.location.href = 'EMERGENCIAS/cadastro.html'">Cadastrar</button>
+                <button onclick="window.location.href = 'EMERGENCIAS/atualizar.html'">Atualizar</button>
+                <form  method="get" action="/CampanhaSolidaria/EmergenciaServlet?action=consultar" >
+                    <button onclick="window.location.href = 'EMERGENCIAS/consultar.jsp'">Consultar</button>
+                </form>
+                <button onclick="window.location.href = 'EMERGENCIAS/deletar.html'">Deletar</button>
+            </div>
+
+            <div id="categoria">
+                <h2>INSUMOS</h2>
+                <button onclick="window.location.href = 'INSUMOS/cadastro.html'">Cadastrar</button>
+                <button onclick="window.location.href = 'INSUMOS/atualizar.html'">Atualizar</button>
+                <form  method="get" action="/CampanhaSolidaria/InsumoServlet?action=consultar">
+                    <button onclick="window.location.href = 'INSUMOS/consultar.jsp'">Consultar</button>
+                </form>
+                <button onclick="window.location.href = 'INSUMOS/deletar.html'">Deletar</button>
+            </div>
+
+            <div id="categoria">
+                <h2>CAMPANHAS</h2>
+                <button onclick="window.location.href = 'CAMPANHAS/cadastro.html'">Cadastrar</button>
+                <button onclick="window.location.href = 'CAMPANHAS/atualizar.html'">Atualizar</button>
+                <form  method="get" action="/CampanhaSolidaria/CampanhaServlet?action=consultar" >
+                    <button onclick="window.location.href = 'CAMPANHAS/consultar.jsp'">Consultar</button>
+                </form>
+                <button onclick="window.location.href = 'CAMPANHAS/deletar.html'">Deletar</button>
+            </div>
+        </div>
+        <div id="icone">
+            <img src="STYLES/imagens/icone.png" />
+        </div>
+    </body>
+</html>
